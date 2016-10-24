@@ -1,0 +1,7 @@
+*{margin:0;padding:0}
+.appleBasket{width:400px;border:1px solid #000;border-radius: 10px;}
+
+.nowWeight,.eatedWeight,.restWeight{width:33.3%;float:left;display:flex;-webkit-align-items:center;-webkit-justify-content:center}
+.clear{clear: both}
+.appleList div{display:flex;-webkit-justify-content:space-around}
+.add{display:flex;-webkit-align-items:center;-webkit-justify-content:center}
