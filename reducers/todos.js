@@ -8,6 +8,7 @@ const initialState = {
 }
 export default function todos(state = initialState, action) {
     let newState;
+
     switch (action.type) {
         case 'EAT_APPLE':
             state.apples[action.playload].isEaten = true;
